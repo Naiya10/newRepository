@@ -19,12 +19,12 @@ public class driverCommandsOrLinks {
        List<WebElement> links = driver.findElements(By.tagName("a"));
 
        // print the size of list
-        System.out.println("The size of list containing "+links.size());
+      //  System.out.println("The size of list containing "+links.size());
          // print the text of line
         for(WebElement link:links){
 
             //get the text out of the web element link
-         String  linkText = link.getText();
+          String  linkText = link.getText();
            System.out.println(linkText);
 
            // only print the links that have some text and ignore the rest
