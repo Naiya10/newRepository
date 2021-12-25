@@ -11,7 +11,7 @@ public class Dropdown {
             System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
             WebDriver driver = new ChromeDriver();
             driver.get("https://syntaxprojects.com/basic-select-dropdown-demo.php");
-           WebElement days = driver.findElement(By.xpath("//*[@id=\"select-demo\"]"));
+           WebElement days = driver.findElement(By.xpath("//*[@id='select-demo']"));
 
             // use the select class to select from drop down
        // Select the value by drop down using dropdown
